@@ -1,8 +1,6 @@
 select code, name from title;
   
-select code, name
-  from title 
-where code = 1;
+select code, name from title where code = 1;
 
 insert into title value (6, '인턴');
 
